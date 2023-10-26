@@ -4,6 +4,8 @@ doctor_specialties.each do |specialty_name|
   DoctorSpecialty.create
 end
 
+# ---
+
 # Création des médecins
 15.times do
   doctor = Doctor.create(
