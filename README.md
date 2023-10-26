@@ -1,24 +1,36 @@
-# README
+# FreeDoc
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+FreeDoc est une application Rails qui permet de gérer des rendez-vous entre médecins et patients. C'est une alternative à Doctolib, conçue pour offrir une expérience utilisateur simplifiée et efficace.
 
-Things you may want to cover:
+## Prérequis
 
-* Ruby version
+### Ruby version
+- Ruby 2.7.0 (ou une version ultérieure)
 
-* System dependencies
+### System dependencies
+- SQLite (ou autre système de gestion de base de données de votre choix)
+- Node.js
+- Yarn
 
-* Configuration
+### Configuration
+1. Clonez ce dépôt :
+git clone [URL_DU_REPO]
 
-* Database creation
+2. Installez les dépendances :
+bundle install
 
-* Database initialization
+3. Créez la base de données :
+rails db:create
 
-* How to run the test suite
+4. Effectuez les migrations et remplissez la base de données avec des données d'exemple :
+rails db:migrate db:seed
 
-* Services (job queues, cache servers, search engines, etc.)
+5. Effectuer les tests :
+rails test
 
-* Deployment instructions
 
-* ...
+### Troubleshooting
+Contact person(s) in Credits section below.
+
+### Credit
+Robin DEBESSEL | @ho757uff on Discord")
